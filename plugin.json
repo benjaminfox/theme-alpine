@@ -1,22 +1,8 @@
 {
-	"version": "1.1.2",
-	"title": "Alpine theme",
-	"description": "Micro.blog's Alpine theme, similar to Marfa theme.",
-	"fields": [
-		{
-			"field": "params.alpine_accent_text_color",
-			"label": "Accent text color",
-			"type": "color"
-		},
-		{
-			"field": "params.alpine_accent_background_color",
-			"label": "Accent background color",
-			"type": "color"
-		},
-		{
-			"field": "params.alpine_hover_background_color",
-			"label": "Hover background color",
-			"type": "color"
-		}
-	]
+  "version": "1.0",
+  "title": "Open Graph Cards",
+  "description": "This plugin adds Open Graph meta tags to create social media and iMessage previews for posts.",
+  "includes": [
+    "open_graph_meta.html"
+  ]
 }

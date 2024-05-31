@@ -1,0 +1,31 @@
+table a, li a, p a {
+text-decoration-line: underline;
+text-decoration-style: dotted;
+text-decoration-color: blue;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+text-decoration: none;
+}
+
+pre {
+background-color: #dedede;
+color: #000000;
+overflow-x: scroll;
+white-space: pre;
+}
+
+pre code {
+color: #0000000;
+}
+
+p code {
+font-family: monospace;
+font-size: 0.85em;
+border-radius: 4px;
+background-color: #dedede;
+color: #000000;
+display: inline-block;
+padding: 0 5px;
+margin: 0;
+}
