@@ -93,7 +93,9 @@ pre {
   font-weight: 500;
 }
 
-nav.main-nav a, #footer a, #post-nav a, p a {
+nav.main-nav a, #footer a, #post-nav a, p a, table a, li a {
+	color: #000;
+  font-weight: 500;
 }
 
 nav.main-nav a:hover, #footer a:hover, #post-nav a:hover, p a:hover, table a:hover, li a:hover {
