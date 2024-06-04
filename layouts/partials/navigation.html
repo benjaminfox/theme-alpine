@@ -2,11 +2,9 @@
 
 	<div class="site-title">
 		<img src="{{ .Site.Author.avatar }}" width="50" height="50" class="site-image">
-		<a href=" {{ .Site.Author.website }}">
+		<a href="{{ .Site.Params.corporate_url }}">
 			{{ .Site.Title }}
-		</a>
-		 •
-		<a href="/">Blog</a>
+		</a> <a href="/">Blog</a>
 	</div>
 
 	<div class="site-menus">
