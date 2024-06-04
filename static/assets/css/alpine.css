@@ -143,7 +143,7 @@ nav.main-nav {
 }
 
 .site-title {
-	display: flex;
+	display: inline-block;
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 1.35;
