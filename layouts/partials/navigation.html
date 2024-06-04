@@ -1,10 +1,12 @@
 <nav class="main-nav">
 
 	<div class="site-title">
-		<a href=" {{ .Site.Author.url }}">
-			<img src="{{ .Site.Author.avatar }}" width="50" height="50" class="site-image">
+		<img src="{{ .Site.Author.avatar }}" width="50" height="50" class="site-image">
+		<a href=" {{ .Site.Author.website }}">
 			{{ .Site.Title }}
-		</a> • <a href="/">Blog</a>
+		</a>
+		 •
+		<a href="/">Blog</a>
 	</div>
 
 	<div class="site-menus">
