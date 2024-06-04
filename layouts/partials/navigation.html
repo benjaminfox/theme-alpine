@@ -1,16 +1,18 @@
 <nav class="main-nav">
 
 	<div class="site-title">
-		<img src="{{ .Site.Author.avatar }}" width="25" height="25" class="site-image">		
-		<a href="/">{{ .Site.Title }}</a>
+		<a href=" {{ .Site.Author.url }}">
+			<img src="{{ .Site.Author.avatar }}" width="50" height="50" class="site-image">
+			{{ .Site.Title }}
+		</a> • <a href="/">Blog</a>
 	</div>
 
 	<div class="site-menus">
 
 	{{ if ne .IsHome true }}
-<!--
+
 	<a class="normal" href="/"> <span class="arrow">←</span> Home</a>
--->
+
 	{{ end }}
 
 	{{ range .Site.Menus.main }}
