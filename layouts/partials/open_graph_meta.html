@@ -10,10 +10,14 @@
 <meta property="og:type" content="{{ with .Title }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{ with .Params.images }}
-    {{ range first 6 . }}
-        <meta property="og:image" content="{{ . | absURL }}" />
-    {{ end }}
+{{ if .Params.images }}
+  {{ with .Params.images }}
+      {{ range first 1 . }}
+          <meta property="og:image" content="{{ . | absURL }}" />
+      {{ end }}
+  {{ end }}
+{{ else }}
+  <meta property="og:image" content="{{ 'uploads/2024/og.png' | absURL }}" />
 {{ end }}
 
 {{ with .Params.audio }}

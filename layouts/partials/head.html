@@ -12,6 +12,7 @@
     {{- end -}}
   </title>
 
+  {{ partial "open_graph_meta.html" . }}
   <link href="/uploads/2024/favicon.png" rel="icon">
   <link href="{{ "assets/css/style.css" | relURL }}?{{ .Site.Params.theme_seconds }}" rel="stylesheet">
   <link href="{{ "assets/css/highlight.css" | relURL }}?{{ .Site.Params.theme_seconds }}" rel="stylesheet">
